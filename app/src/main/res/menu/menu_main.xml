@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yunuscagliyan.todobox.MainActivity">
+    <item
+        android:id="@+id/action_categories"
+        android:orderInCategory="100"
+        android:title="@string/categories"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_deleteAllNotes"
+        android:orderInCategory="200"
+        android:title="@string/delete_all_notes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_deleteAllCategories"
+        android:orderInCategory="200"
+        android:title="Delete All Categories"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/action_test_notes"
+        android:orderInCategory="200"
+        android:title="@string/add_test_notes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test_category"
+        android:orderInCategory="200"
+        android:title="@string/add_test_categories"
+        app:showAsAction="never" />
+</menu>

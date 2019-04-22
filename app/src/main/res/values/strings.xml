@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ToDoBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="categories">Categories</string>
+    <string name="etCategoryHint">Write category name</string>
+    <string name="add_test_notes">Add Test Notes</string>
+    <string name="add_test_categories">Add Test Categories</string>
+    <string name="delete_all_notes">Delete All Notes</string>
+    <string-array name="category">
+        <item>General</item>
+        <item>Work</item>
+        <item>Education</item>
+        <item>Family</item>
+        <item>Social Activity</item>
+    </string-array>
+    <string-array name="notes">
+        <item>Go to the Market</item>
+        <item>Got to the Work</item>
+        <item>Study your lesson</item>
+        <item>Meet friend at the Cafe</item>
+    </string-array>
+</resources>
+
